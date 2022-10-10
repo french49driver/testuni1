@@ -37,21 +37,36 @@ params:
   shortDateFormat: 15:04 UTC — Jan 2
   down: "#e60000"
   systems:
-    - name: Gateway
+    - name: FTTH
       category: Collecte
-    - name: Backup Gateway
+    - name: FTTH Pro
       category: Collecte
-    - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and
-        video. It is reliant on our CDN.
-      category: Uncategorized
+    - name: ADSL
+      category: Collecte
+    - name: SDSL
+      category: Collecte
+    - name: 4G
+      category: Collecte
+    - name: Serveur DNS
+      category: Services Hébergé
+      description: Hébergement des zones DNS
+    - name: Uniservice
+      category: Services Hébergé
+      description: Serveur mail
+      partial: ""
+    - category: Hébergement
+      name: Web01
+      description: Hébergement web mutualisé
+    - name: Web02
+      category: Hébergement
+      description: Hébergement web mutualisé
+    - name: Web03
+      category: Hébergement
+      description: Hébergement web mutualisé
+    - name: VPS
+      category: Hébergement
+      description: Hébergement de machine virtuelle
+      partial: Virtual Private Server
   dateFormat: January 2, 2006 at 3:04 PM UTC
   brand: "#FFFFFF"
   enableLastMod: true
@@ -59,9 +74,7 @@ params:
   logo: https://unimedia.fr/wp-content/uploads/2015/06/logotype-couleur-1.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
-  customTabs:
-    - name: Site web
-      link: https://unimedia.fr
+  customTabs: []
   alwaysKeepBrandColor: true
   disableComplexCalculations: false
   useLogo: true
@@ -72,11 +85,10 @@ params:
   ok: "#008000"
   categories:
     - name: Collecte
-      description: Equipements de collecte
+      description: ""
       closed: false
-    - name: Empty Category
-    - name: Uncategorized
-      untitled: true
+    - name: Services Hébergé
+    - name: Hébergement
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true

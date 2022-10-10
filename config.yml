@@ -88,7 +88,6 @@ params:
       description: ""
       closed: false
     - name: Hebergement
-  description: We continuously monitor the status of our services and if there are
-    any interruptions, a note will be posted here.
+  description: Nous surveillons en permanence l'état de nos services. En cas de perturbation d'un ou plusieurs service(s), une note sera affichée ici.
   enableCustomHTML: true
   useLargeHeaderDesign: false

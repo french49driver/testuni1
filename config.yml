@@ -48,10 +48,10 @@ params:
     - name: 4G
       category: Collecte
     - name: Serveur DNS
-      category: Services Hébergé
+      category: Hébergement
       description: Hébergement des zones DNS
     - name: Uniservice
-      category: Services Hébergé
+      category: Hébergement
       description: Serveur mail
       partial: ""
     - category: Hébergement
@@ -87,7 +87,6 @@ params:
     - name: Collecte
       description: ""
       closed: false
-    - name: Services Hébergé
     - name: Hébergement
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.

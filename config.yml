@@ -1,4 +1,4 @@
-title: Unimédia status
+title: Unitest status
 buildFuture: true
 defaultContentLanguage: fr
 languageCode: fr
@@ -71,7 +71,7 @@ params:
   brand: "#FFFFFF"
   enableLastMod: true
   headerTextColor: white
-  logo: https://unimedia.fr/wp-content/uploads/2015/06/logotype-couleur-1.png
+  logo: https://www.playtoearn.online/wp-content/uploads/2022/05/the-sandbox-logo-1.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
   customTabs: []

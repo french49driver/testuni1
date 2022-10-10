@@ -34,7 +34,7 @@ params:
   skipSeconds: false
   useRelativeTime: true
   disableDarkMode: true
-  shortDateFormat: 15:04 UTC — Jan 2
+  shortDateFormat: 15:04 UTC+2 — 2 Jan
   down: "#e60000"
   systems:
     - name: FTTH
@@ -67,7 +67,7 @@ params:
       category: Hébergement
       description: Hébergement de machine virtuelle
       partial: ""
-  dateFormat: 2 January, 2006 at 3:04 Z02
+  dateFormat: 2 January, 2006 at 3:04 UTC+2
   brand: "#FFFFFF"
   enableLastMod: true
   headerTextColor: white

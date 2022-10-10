@@ -62,7 +62,7 @@ params:
   customTabs:
     - name: Site web
       link: https://unimedia.fr
-  alwaysKeepBrandColor: true
+  alwaysKeepBrandColor: false
   disableComplexCalculations: false
   useLogo: true
   disrupted: "#cc4400"

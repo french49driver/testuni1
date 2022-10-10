@@ -5,7 +5,7 @@ date: 2022-10-10T13:40:19.461Z
 resolved: true
 draft: false
 informational: false
-pin: false
+pin: true
 resolvedWhen: 2022-10-10T13:50:19.474Z
 affected:
   - FTTH

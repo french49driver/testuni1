@@ -56,7 +56,7 @@ params:
   brand: "#0a0c0f"
   enableLastMod: true
   headerTextColor: white
-  logo: logo.png
+  logo: https://unimedia.fr/wp-content/uploads/2015/06/logotype-couleur-1.png
   incidentPostsPerPage: 10
   googleAnalytics: UA-00000000-1
   customTabs:

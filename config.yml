@@ -67,7 +67,7 @@ params:
       category: Hébergement
       description: Hébergement de machine virtuelle
       partial: ""
-  dateFormat: 2 January, 2006 at 3:04 UTC
+  dateFormat: 2 January, 2006 at 3:04 Z02
   brand: "#FFFFFF"
   enableLastMod: true
   headerTextColor: white

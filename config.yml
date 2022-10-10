@@ -48,23 +48,23 @@ params:
     - name: 4G
       category: Collecte
     - name: Serveur DNS
-      category: Hebergement
+      category: Hébergement
       description: Hébergement des zones DNS
     - name: Uniservice
-      category: Hebergement
+      category: Hébergement
       description: Serveur mail
       partial: ""
-    - category: Hebergement
+    - category: Hébergement
       name: Web01
       description: Hébergement web mutualisé
     - name: Web02
-      category: Hebergement
+      category: Hébergement
       description: Hébergement web mutualisé
     - name: Web03
-      category: Hebergement
+      category: Hébergement
       description: Hébergement web mutualisé
     - name: VPS
-      category: Hebergement
+      category: Hébergement
       description: Hébergement de machine virtuelle
       partial: ""
   dateFormat: January 2, 2006 at 3:04 PM UTC
@@ -80,14 +80,15 @@ params:
   useLogo: true
   disrupted: "#cc4400"
   notice: "#24478f"
-  incidentHistoryFormat: yearly
+  incidentHistoryFormat: monthly
   disableIncidentHistory: false
   ok: "#008000"
   categories:
     - name: Collecte
       description: ""
       closed: false
-    - name: Hebergement
-  description: Nous surveillons en permanence l'état de nos services. En cas de perturbation d'un ou plusieurs service(s), une note sera affichée ici.
+    - name: Hébergement
+  description: Nous surveillons en permanence l'état de nos services. En cas de
+    perturbation d'un ou plusieurs service(s), une note sera affichée ici.
   enableCustomHTML: true
   useLargeHeaderDesign: false

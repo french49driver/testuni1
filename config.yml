@@ -91,5 +91,5 @@ params:
       closed: true
   description: Nous surveillons en permanence l'état de nos services. En cas de
     perturbation d'un ou plusieurs service(s), une note sera affichée ici.
-  enableCustomHTML: true
+  enableCustomHTML: false
   useLargeHeaderDesign: false

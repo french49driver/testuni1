@@ -2,11 +2,11 @@
 section: issue
 title: Performance dégradée
 date: 2022-10-10T15:40:56.046Z
-resolved: false
+resolved: true
 draft: false
 informational: false
 pin: false
-resolvedWhen: 2022-10-10T15:53:56.053Z
+resolvedWhen: 2022-10-11T15:53:56.053Z
 affected:
   - Serveur DNS
 severity: disrupted
